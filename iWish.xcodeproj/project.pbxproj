@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9B1B1D145659C10005D361 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B1C145659C10005D361 /* UIKit.framework */; };
+		1B9B1B1F145659C10005D361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B1E145659C10005D361 /* Foundation.framework */; };
+		1B9B1B21145659C10005D361 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B20145659C10005D361 /* CoreGraphics.framework */; };
+		1B9B1B27145659C10005D361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B9B1B25145659C10005D361 /* InfoPlist.strings */; };
+		1B9B1B29145659C10005D361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B1B28145659C10005D361 /* main.m */; };
+		1B9B1B2D145659C10005D361 /* IWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B1B2C145659C10005D361 /* IWAppDelegate.m */; };
+		1B9B1B30145659C10005D361 /* IWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B1B2F145659C10005D361 /* IWViewController.m */; };
+		1B9B1B33145659C10005D361 /* IWViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9B1B31145659C10005D361 /* IWViewController_iPhone.xib */; };
+		1B9B1B36145659C10005D361 /* IWViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9B1B34145659C10005D361 /* IWViewController_iPad.xib */; };
+		1B9B1B3E145659C10005D361 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B3D145659C10005D361 /* SenTestingKit.framework */; };
+		1B9B1B3F145659C10005D361 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B1C145659C10005D361 /* UIKit.framework */; };
+		1B9B1B40145659C10005D361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B1E145659C10005D361 /* Foundation.framework */; };
+		1B9B1B48145659C10005D361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B9B1B46145659C10005D361 /* InfoPlist.strings */; };
+		1B9B1B4B145659C10005D361 /* iWishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B1B4A145659C10005D361 /* iWishTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B9B1B41145659C10005D361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9B1B0F145659C10005D361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9B1B17145659C10005D361;
+			remoteInfo = iWish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B9B1B18145659C10005D361 /* iWish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9B1B1C145659C10005D361 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B9B1B1E145659C10005D361 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B9B1B20145659C10005D361 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B9B1B24145659C10005D361 /* iWish-Info.plist */ = {isa = PBXFileReference; path = "iWish-Info.plist"; sourceTree = "<group>"; };
+		1B9B1B26145659C10005D361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B9B1B28145659C10005D361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B9B1B2A145659C10005D361 /* iWish-Prefix.pch */ = {isa = PBXFileReference; path = "iWish-Prefix.pch"; sourceTree = "<group>"; };
+		1B9B1B2B145659C10005D361 /* IWAppDelegate.h */ = {isa = PBXFileReference; path = IWAppDelegate.h; sourceTree = "<group>"; };
+		1B9B1B2C145659C10005D361 /* IWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWAppDelegate.m; sourceTree = "<group>"; };
+		1B9B1B2E145659C10005D361 /* IWViewController.h */ = {isa = PBXFileReference; path = IWViewController.h; sourceTree = "<group>"; };
+		1B9B1B2F145659C10005D361 /* IWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWViewController.m; sourceTree = "<group>"; };
+		1B9B1B32145659C10005D361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IWViewController_iPhone.xib; sourceTree = "<group>"; };
+		1B9B1B35145659C10005D361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IWViewController_iPad.xib; sourceTree = "<group>"; };
+		1B9B1B3C145659C10005D361 /* iWishTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWishTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9B1B3D145659C10005D361 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B9B1B45145659C10005D361 /* iWishTests-Info.plist */ = {isa = PBXFileReference; path = "iWishTests-Info.plist"; sourceTree = "<group>"; };
+		1B9B1B47145659C10005D361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B9B1B49145659C10005D361 /* iWishTests.h */ = {isa = PBXFileReference; path = iWishTests.h; sourceTree = "<group>"; };
+		1B9B1B4A145659C10005D361 /* iWishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWishTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9B1B15145659C10005D361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9B1B1D145659C10005D361 /* UIKit.framework in Frameworks */,
+				1B9B1B1F145659C10005D361 /* Foundation.framework in Frameworks */,
+				1B9B1B21145659C10005D361 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9B1B38145659C10005D361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9B1B3E145659C10005D361 /* SenTestingKit.framework in Frameworks */,
+				1B9B1B3F145659C10005D361 /* UIKit.framework in Frameworks */,
+				1B9B1B40145659C10005D361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9B1B0D145659C10005D361 = {
+			isa = PBXGroup;
+			children = (
+				1B9B1B22145659C10005D361 /* iWish */,
+				1B9B1B43145659C10005D361 /* iWishTests */,
+				1B9B1B1B145659C10005D361 /* Frameworks */,
+				1B9B1B19145659C10005D361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9B1B19145659C10005D361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9B1B18145659C10005D361 /* iWish.app */,
+				1B9B1B3C145659C10005D361 /* iWishTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9B1B1B145659C10005D361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9B1B1C145659C10005D361 /* UIKit.framework */,
+				1B9B1B1E145659C10005D361 /* Foundation.framework */,
+				1B9B1B20145659C10005D361 /* CoreGraphics.framework */,
+				1B9B1B3D145659C10005D361 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B9B1B22145659C10005D361 /* iWish */ = {
+			isa = PBXGroup;
+			children = (
+				1B9B1B2B145659C10005D361 /* IWAppDelegate.h */,
+				1B9B1B2C145659C10005D361 /* IWAppDelegate.m */,
+				1B9B1B2E145659C10005D361 /* IWViewController.h */,
+				1B9B1B2F145659C10005D361 /* IWViewController.m */,
+				1B9B1B31145659C10005D361 /* IWViewController_iPhone.xib */,
+				1B9B1B34145659C10005D361 /* IWViewController_iPad.xib */,
+				1B9B1B23145659C10005D361 /* Supporting Files */,
+			);
+			path = iWish;
+			sourceTree = "<group>";
+		};
+		1B9B1B23145659C10005D361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9B1B24145659C10005D361 /* iWish-Info.plist */,
+				1B9B1B25145659C10005D361 /* InfoPlist.strings */,
+				1B9B1B28145659C10005D361 /* main.m */,
+				1B9B1B2A145659C10005D361 /* iWish-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B9B1B43145659C10005D361 /* iWishTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B9B1B49145659C10005D361 /* iWishTests.h */,
+				1B9B1B4A145659C10005D361 /* iWishTests.m */,
+				1B9B1B44145659C10005D361 /* Supporting Files */,
+			);
+			path = iWishTests;
+			sourceTree = "<group>";
+		};
+		1B9B1B44145659C10005D361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9B1B45145659C10005D361 /* iWishTests-Info.plist */,
+				1B9B1B46145659C10005D361 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9B1B17145659C10005D361 /* iWish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9B1B4E145659C10005D361 /* Build configuration list for PBXNativeTarget "iWish" */;
+			buildPhases = (
+				1B9B1B14145659C10005D361 /* Sources */,
+				1B9B1B15145659C10005D361 /* Frameworks */,
+				1B9B1B16145659C10005D361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iWish;
+			productName = iWish;
+			productReference = 1B9B1B18145659C10005D361 /* iWish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B9B1B3B145659C10005D361 /* iWishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9B1B51145659C10005D361 /* Build configuration list for PBXNativeTarget "iWishTests" */;
+			buildPhases = (
+				1B9B1B37145659C10005D361 /* Sources */,
+				1B9B1B38145659C10005D361 /* Frameworks */,
+				1B9B1B39145659C10005D361 /* Resources */,
+				1B9B1B3A145659C10005D361 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9B1B42145659C10005D361 /* PBXTargetDependency */,
+			);
+			name = iWishTests;
+			productName = iWishTests;
+			productReference = 1B9B1B3C145659C10005D361 /* iWishTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9B1B0F145659C10005D361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B9B1B12145659C10005D361 /* Build configuration list for PBXProject "iWish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B9B1B0D145659C10005D361;
+			productRefGroup = 1B9B1B19145659C10005D361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9B1B17145659C10005D361 /* iWish */,
+				1B9B1B3B145659C10005D361 /* iWishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9B1B16145659C10005D361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9B1B27145659C10005D361 /* InfoPlist.strings in Resources */,
+				1B9B1B33145659C10005D361 /* IWViewController_iPhone.xib in Resources */,
+				1B9B1B36145659C10005D361 /* IWViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9B1B39145659C10005D361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9B1B48145659C10005D361 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B9B1B3A145659C10005D361 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9B1B14145659C10005D361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9B1B29145659C10005D361 /* main.m in Sources */,
+				1B9B1B2D145659C10005D361 /* IWAppDelegate.m in Sources */,
+				1B9B1B30145659C10005D361 /* IWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9B1B37145659C10005D361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9B1B4B145659C10005D361 /* iWishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B9B1B42145659C10005D361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9B1B17145659C10005D361 /* iWish */;
+			targetProxy = 1B9B1B41145659C10005D361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B9B1B25145659C10005D361 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9B1B26145659C10005D361 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B9B1B31145659C10005D361 /* IWViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9B1B32145659C10005D361 /* en */,
+			);
+			name = IWViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1B9B1B34145659C10005D361 /* IWViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9B1B35145659C10005D361 /* en */,
+			);
+			name = IWViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1B9B1B46145659C10005D361 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9B1B47145659C10005D361 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B9B1B4C145659C10005D361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B9B1B4D145659C10005D361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B9B1B4F145659C10005D361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWish/iWish-Prefix.pch";
+				INFOPLIST_FILE = "iWish/iWish-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B9B1B50145659C10005D361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWish/iWish-Prefix.pch";
+				INFOPLIST_FILE = "iWish/iWish-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B9B1B52145659C10005D361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWish.app/iWish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWish/iWish-Prefix.pch";
+				INFOPLIST_FILE = "iWishTests/iWishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1B9B1B53145659C10005D361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWish.app/iWish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWish/iWish-Prefix.pch";
+				INFOPLIST_FILE = "iWishTests/iWishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9B1B12145659C10005D361 /* Build configuration list for PBXProject "iWish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9B1B4C145659C10005D361 /* Debug */,
+				1B9B1B4D145659C10005D361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9B1B4E145659C10005D361 /* Build configuration list for PBXNativeTarget "iWish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9B1B4F145659C10005D361 /* Debug */,
+				1B9B1B50145659C10005D361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B9B1B51145659C10005D361 /* Build configuration list for PBXNativeTarget "iWishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9B1B52145659C10005D361 /* Debug */,
+				1B9B1B53145659C10005D361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9B1B0F145659C10005D361 /* Project object */;
+}
