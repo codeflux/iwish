@@ -15,7 +15,7 @@
     queryParams=[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
                                                      @"touch",
                                                      @"user_birthday,publish_stream,read_stream",
-                                                     @"249783355064843",
+                                                     @"456723872345629",
                                                      @"fbconnect://success",
                                                      @"token",
                                                      nil]
@@ -29,7 +29,7 @@
 }
 
 -(void)testParseParams {
-    NSURL *testURL=[NSURL URLWithString:@"http://www.facebook.com/dialog/oauth/?display=touch&scope=user_birthday,publish_stream,read_stream&client_id=249783355064843&redirect_uri=fbconnect://success&response_type=token"];
+    NSURL *testURL=[NSURL URLWithString:@"http://www.facebook.com/dialog/oauth/?display=touch&scope=user_birthday,publish_stream,read_stream&client_id=45672387296345629&redirect_uri=fbconnect://success&response_type=token"];
     NSDictionary *params=[testURL parameterDictionary];
     
     for (NSString *param in params) {
