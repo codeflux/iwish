@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B67E4711463A70E005E1455 /* NSString+IWCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67E4701463A70E005E1455 /* NSString+IWCommon.m */; };
+		1B67E4771463BD1A005E1455 /* NSString+IWCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67E4761463BD1A005E1455 /* NSString+IWCommonTests.m */; };
+		1B67E47B1463C41B005E1455 /* IWHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67E47A1463C41B005E1455 /* IWHttpRequest.m */; };
 		1B9B1B1D145659C10005D361 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B1C145659C10005D361 /* UIKit.framework */; };
 		1B9B1B1F145659C10005D361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B1E145659C10005D361 /* Foundation.framework */; };
 		1B9B1B21145659C10005D361 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B1B20145659C10005D361 /* CoreGraphics.framework */; };
@@ -23,6 +26,7 @@
 		1B9B1B6E145664CD0005D361 /* iWish-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B9B1B6D145664CD0005D361 /* iWish-Info.plist */; };
 		1BAE190B1456B2DA00F90431 /* NSURL+IWCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE190A1456B2DA00F90431 /* NSURL+IWCommonTests.m */; };
 		1BAE190F1456B2EE00F90431 /* NSURL+IWCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE190E1456B2EE00F90431 /* NSURL+IWCommon.m */; };
+		1BAE19181456B56D00F90431 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE19171456B56D00F90431 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B67E46F1463A70E005E1455 /* NSString+IWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IWCommon.h"; sourceTree = "<group>"; };
+		1B67E4701463A70E005E1455 /* NSString+IWCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IWCommon.m"; sourceTree = "<group>"; };
+		1B67E4751463BD1A005E1455 /* NSString+IWCommonTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IWCommonTests.h"; sourceTree = "<group>"; };
+		1B67E4761463BD1A005E1455 /* NSString+IWCommonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IWCommonTests.m"; sourceTree = "<group>"; };
+		1B67E4791463C41B005E1455 /* IWHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWHttpRequest.h; sourceTree = "<group>"; };
+		1B67E47A1463C41B005E1455 /* IWHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWHttpRequest.m; sourceTree = "<group>"; };
 		1B9B1B18145659C10005D361 /* iWish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9B1B1C145659C10005D361 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1B9B1B1E145659C10005D361 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,7 @@
 		1BAE190A1456B2DA00F90431 /* NSURL+IWCommonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+IWCommonTests.m"; sourceTree = "<group>"; };
 		1BAE190D1456B2EE00F90431 /* NSURL+IWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+IWCommon.h"; sourceTree = "<group>"; };
 		1BAE190E1456B2EE00F90431 /* NSURL+IWCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+IWCommon.m"; sourceTree = "<group>"; };
+		1BAE19171456B56D00F90431 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAE19181456B56D00F90431 /* CoreData.framework in Frameworks */,
 				1B9B1B1D145659C10005D361 /* UIKit.framework in Frameworks */,
 				1B9B1B1F145659C10005D361 /* Foundation.framework in Frameworks */,
 				1B9B1B21145659C10005D361 /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B67E4781463C3E6005E1455 /* IWHttpLib */ = {
+			isa = PBXGroup;
+			children = (
+				1B67E4791463C41B005E1455 /* IWHttpRequest.h */,
+				1B67E47A1463C41B005E1455 /* IWHttpRequest.m */,
+			);
+			path = IWHttpLib;
+			sourceTree = "<group>";
+		};
 		1B9B1B0D145659C10005D361 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +129,7 @@
 		1B9B1B1B145659C10005D361 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1BAE19171456B56D00F90431 /* CoreData.framework */,
 				1B9B1B1C145659C10005D361 /* UIKit.framework */,
 				1B9B1B1E145659C10005D361 /* Foundation.framework */,
 				1B9B1B20145659C10005D361 /* CoreGraphics.framework */,
@@ -138,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				1BAE190C1456B2EE00F90431 /* IWCommon */,
+				1B67E4781463C3E6005E1455 /* IWHttpLib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,6 +194,8 @@
 			children = (
 				1BAE19091456B2DA00F90431 /* NSURL+IWCommonTests.h */,
 				1BAE190A1456B2DA00F90431 /* NSURL+IWCommonTests.m */,
+				1B67E4751463BD1A005E1455 /* NSString+IWCommonTests.h */,
+				1B67E4761463BD1A005E1455 /* NSString+IWCommonTests.m */,
 			);
 			path = IWCommon;
 			sourceTree = "<group>";
@@ -180,6 +205,8 @@
 			children = (
 				1BAE190D1456B2EE00F90431 /* NSURL+IWCommon.h */,
 				1BAE190E1456B2EE00F90431 /* NSURL+IWCommon.m */,
+				1B67E46F1463A70E005E1455 /* NSString+IWCommon.h */,
+				1B67E4701463A70E005E1455 /* NSString+IWCommon.m */,
 			);
 			path = IWCommon;
 			sourceTree = "<group>";
@@ -296,6 +323,8 @@
 				1B9B1B6A1456647E0005D361 /* IWViewController.m in Sources */,
 				1B9B1B6B1456647E0005D361 /* main.m in Sources */,
 				1BAE190F1456B2EE00F90431 /* NSURL+IWCommon.m in Sources */,
+				1B67E4711463A70E005E1455 /* NSString+IWCommon.m in Sources */,
+				1B67E47B1463C41B005E1455 /* IWHttpRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAE190B1456B2DA00F90431 /* NSURL+IWCommonTests.m in Sources */,
+				1B67E4771463BD1A005E1455 /* NSString+IWCommonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +399,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -388,6 +419,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
