@@ -52,7 +52,7 @@ Usage
 
 **IWHttpLib**
 
-There is one class you need to know: `IWHttpRequest`.
+There is one class you need to know: `IWHttpRequest`. Please take note that instances of this class should not be reused after each request.
 
 At its simplest form:
 
